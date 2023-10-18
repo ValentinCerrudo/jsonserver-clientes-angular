@@ -1,0 +1,43 @@
+footer {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    flex: 1;
+    padding-left: 3rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+/* Estilos para las columnas individuales */
+.column h3 {
+    font-size: 1.2rem;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li a{
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.column li{
+    margin-top: 0.5rem;
+}

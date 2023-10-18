@@ -1,0 +1,19 @@
+<main class="contenedor">
+    <h1>Listado de clientes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Apellido</th>
+                <th>Nombre</th>
+                <th>DNI</th>
+            </tr>
+        </thead>
+        <tbody id="clientes">
+            <tr *ngFor="let item of lista">
+                <td>{{item.apellido}}</td>
+                <td>{{item.nombre}}</td>
+                <td>{{item.dni}}</td>
+            </tr>
+        </tbody>
+    </table>
+</main>

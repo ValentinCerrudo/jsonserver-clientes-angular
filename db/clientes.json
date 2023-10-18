@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "apellido": "Cerrudo",
+      "nombre": "Valentin",
+      "dni": "42",
+      "id": 1
+    },
+    {
+      "apellido": "Martinez",
+      "nombre": "Marisa",
+      "dni": "18",
+      "id": 2
+    },
+    {
+      "apellido": "cerrudo",
+      "nombre": "Valentin",
+      "dni": 42,
+      "id": 3
+    },
+    {
+      "apellido": "Messi",
+      "nombre": "Lionel",
+      "dni": 10,
+      "id": 4
+    }
+  ]
+}
